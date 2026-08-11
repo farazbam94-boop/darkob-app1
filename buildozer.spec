@@ -1,5 +1,3 @@
-# This .spec config file tells Buildozer an app's requirements for being built.
-
 [app]
 
 # (str) Title of your application
@@ -49,6 +47,9 @@ android.accept_sdk_license = True
 
 # (list) The Android archs to build for
 android.archs = arm64-v8a, armeabi-v7a
+
+# (str) Version of the Android NDK to use
+android.ndk = 28c
 
 # (bool) enables Android auto backup feature
 android.allow_backup = True
